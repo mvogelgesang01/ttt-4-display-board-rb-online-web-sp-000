@@ -9,40 +9,35 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board (board)
 
+
 puts "Turn 1"
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-display_board(board)
-
-
-
-puts "Turn 2"
 board = [" ", " ", " ", " ", "x", " ", " ", " ", " "]
 display_board(board)
 
-puts "Turn 3"
+puts "Turn 2"
 board = ["O", " ", " ", " ", "  ", " ", " ", " ", " "]
 display_board(board)
 
-puts "Turn 4"
+puts "Turn 3"
 board = ["O", " ", " ", " ", "x", " ", " ", " ", " "]
 display_board(board)
 
-puts "Turn 5"
+puts "Turn 4"
 board = ["X","X","X", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
-puts "Turn 6"
+puts "Turn 5"
 board = [" "," "," ", " ", " ", " ", "O", "O","O"]
 display_board(board)
 
-puts "Turn 7"
+puts "Turn 6"
 board = ["X"," "," ", " ", "X", " ", " ", " ","X"]
 display_board(board)
 
-puts "Turn 8"
+puts "Turn 7"
 board = [" "," ","O", " ", "O", " ", "O", " "," "]
 display_board(board)
 
-puts "Turn 9"
+puts "Turn 8"
 board = [" "," ","O", " ", "O", " ", "O", " "," "]
 display_board(board)
