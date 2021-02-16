@@ -6,46 +6,46 @@ def display_board (board)
   puts " #{board[6]}  | #{board[7]}  | #{board[8]}  "
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" "," "," "," "," "," "," "," "," "]
 display_board (board)
 
 
 puts "Turn 1"
-board = [" ", " ", " ", " ", "x", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
 
 puts "Turn 2"
-board = ["O", " ", " ", " ", "  ", " ", " ", " ", " "]
+board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
 puts "Turn 3"
-board = ["O", " ", " ", " ", "x", " ", " ", " ", " "]
+board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
 
 puts "Turn 4"
-board = ["X","X","X", " ", " ", " ", " ", " ", " "]
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
 puts "Turn 5"
-board = [" "," "," ", " ", " ", " ", "O", "O","O"]
+board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
 display_board(board)
 
 puts "Turn 6"
-board = ["X"," "," ", " ", "X", " ", " ", " ","X"]
+board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
 display_board(board)
 
 puts "Turn 7"
-board = [" "," ","O", " ", "O", " ", "O", " "," "]
+board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
 display_board(board)
 
 puts "Turn 8"
-board = [" "," ","O", " ", "O", " ", "O", " "," "]
+board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
 display_board(board)
 
 puts "Turn 9"
-board = ["X","X","X","X","X","X","X","X","X"]
+board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
 display_board(board)
 
 puts "Turn 10"
-board = ["O","O","O","O","O","O","O","O","O"]
+board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
 display_board(board)
