@@ -41,3 +41,11 @@ display_board(board)
 puts "Turn 8"
 board = [" "," ","O", " ", "O", " ", "O", " "," "]
 display_board(board)
+
+puts "Turn 9"
+board = ["X","X","X","X","X","X","X","X","X"]
+display_board(board)
+
+puts "Turn 10"
+board = ["O","O","O","O","O","O","O","O","O"]
+display_board(board)
